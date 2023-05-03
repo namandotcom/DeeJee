@@ -1,0 +1,24 @@
+.hlogo1
+{
+    font-family: 'Inconsolata', monospace;
+}
+.bgi1
+{
+    background-image: url("../gal/bg1.jpg");
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+    .bgi1{
+        height: 400px;
+    }
+    .mar_manh{
+        margin-left: 130px;
+        margin-top: -150px;
+    }
+    .mar_manh1{
+        margin-top: -20px;
+    }
+  }

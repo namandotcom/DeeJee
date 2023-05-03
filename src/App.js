@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import Footer from './Components/Footer/Footer';
+import DJs from './Components/DJs/DJs';
+import Events from './Components/Events/Events';
+import Podcast from './Components/Podcast/Podcast';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import PrivacyPolicy from './Components/Privacy-Policy/PrivacyPolicy';
+import Admin from './Components/Admin/Admin';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='djs' element={<DJs/>}/>
+        <Route path='events' element={<Events/>}/>
+        <Route path='podcasts' element={<Podcast/>}/>
+        <Route path='about-us' element={<About/>}/>
+        <Route path='contact-us' element={<Contact/>}/>
+        <Route path='privacy-policy' element={<PrivacyPolicy/>}/>
+        <Route path='admin' element={<Admin/>}/>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 

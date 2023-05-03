@@ -1,0 +1,9 @@
+.mar_manct{
+        width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mar_manct{
+        width: 90%;
+}
+  }

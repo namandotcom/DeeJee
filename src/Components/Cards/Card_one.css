@@ -1,0 +1,59 @@
+.e {
+    background-color: deeppink;
+    color: white;
+    margin-left: -6%;
+    height: 40px;
+    width: 70%;
+    font-family: monospace;
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%
+}
+
+.date {
+    background-color: black;
+    color: white;
+    margin-left: -6%;
+    margin-top: -6%;
+    height: 56px;
+    width: 100%;
+    font-family: monospace;
+    letter-spacing: -1px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 4%;
+    padding-top: 2%
+}
+
+.hvr {
+    width: 100%;
+    height: 250px;
+    transition: transform .2s;
+}
+
+.hvr :hover {
+    transform: scale(1.5);
+}
+.us{
+    letter-spacing: 4px;
+}
+.hr1
+{
+    border: solid 3px blueviolet;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 7%;
+    margin-left: 47%;
+    /* color: :;    */
+}
+.mar_manco{
+    margin-top: 68%;
+}
+@media only screen and (max-width: 600px) {
+    .mar_manco{
+        margin-top: 57%;
+    }
+  }

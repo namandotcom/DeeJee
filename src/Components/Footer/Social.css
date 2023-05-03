@@ -1,0 +1,12 @@
+.scl1{
+    background-color: deeppink;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 4%;
+    height: 80px;
+}
+.scl1:hover{
+    background-color: rgb(232, 22, 134);
+    cursor: pointer;
+}

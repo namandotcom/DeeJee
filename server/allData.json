@@ -1,0 +1,32 @@
+{
+  "allData": [
+    {
+      "f_name": "naman",
+      "e_mail": "naman@gmail.com",
+      "sub": "hi",
+      "desc": "hello",
+      "id": 1
+    },
+    {
+      "f_name": "Ajay",
+      "e_mail": "ajay@gmail.com",
+      "sub": "hi",
+      "desc": "hellooo",
+      "id": 2
+    },
+    {
+      "f_name": "Akash Sharma",
+      "e_mail": "akash@gmail.com",
+      "sub": "helooo",
+      "desc": "my name is akash",
+      "id": 3
+    },
+    {
+      "f_name": "Parul ",
+      "e_mail": "parul@gmail.com",
+      "sub": "hi",
+      "desc": "heloo",
+      "id": 4
+    }
+  ]
+}

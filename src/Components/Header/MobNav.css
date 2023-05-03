@@ -1,0 +1,19 @@
+.mnu
+{
+    background-color: black;
+    height: 205px;
+}
+.lst
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    list-style-type: none;
+    text-align: start;
+}
+.lnk
+{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}

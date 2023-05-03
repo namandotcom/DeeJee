@@ -1,0 +1,94 @@
+.cufl {
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.cufi {
+    width: 80%;
+    height: 50px;
+    border: solid 0.5px white;
+    border-radius: 6px;
+    font-family: 'Noto Sans JP', sans-serif;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.cufi:focus {
+
+    border: solid 0.5px darkmagenta;
+
+}
+
+.cuft {
+    width: 80%;
+    height: 120px;
+    border: solid 0.5px white;
+    border-radius: 6px;
+    font-family: 'Noto Sans JP', sans-serif;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.cuft:focus {
+
+    border: solid 0.5px darkmagenta;
+
+}
+
+.cufb {
+    width: 20%;
+    height: 65px;
+    font-size: 18px;
+    color: white;
+    background-color: deeppink;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.cufb:hover {
+    background-color: rgba(255, 20, 145, 0.957);
+}
+
+.cubg {
+    background-image: url("../gal/cubg.jpg");
+    height: 1100px;
+    background-size: cover;
+}
+
+.cuci {
+    background-image: url("../gal/cuci.jpg");
+    width: 60%;
+    height: 300px;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-left: 15%;
+}
+
+.uscu {
+    letter-spacing: 4px;
+}
+
+.hr1cu {
+    border: solid 3px blueviolet;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 7%;
+    margin-left: 47%;
+}
+
+@media screen and (max-width: 600px) {
+    .cufb {
+        width: 40%;
+    }
+    .cuci {
+        width: 100%;
+        height: 300px;
+        margin-top: 5%;
+        margin-left: 0%;
+        padding-left: 15%;
+    }
+}
